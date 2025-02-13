@@ -25,7 +25,10 @@ git submodule sync --recursive && git submodule update --recursive --init
 
 ```bash
 mkdir -p build/
+```
 
+```bash
+cd build/
 ```
 
 ```bash
@@ -33,12 +36,14 @@ cmake ..
 ```
 
 ```bash
-make install
+cmake --build . --config Debug
 ```
 
 #### Usage Instructions
 
-t.b.d.
+```bash
+Debug/overbearing_gles
+```
 
 #### Contributing
 
